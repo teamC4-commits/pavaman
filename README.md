@@ -133,7 +133,7 @@ CropScope’s Streamlit app provides an intuitive interface for agricultural ima
 
 bash
 git clone [https://github.com/teamC4-commits/pavaman]
-cd CropScope
+cd pavaman
 pip install -r requirements.txt
 streamlit run main.py
 `
