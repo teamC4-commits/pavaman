@@ -3,7 +3,7 @@ numpy
 pandas
 matplotlib
 scikit-learn
-tensorflow
+tensorflow==2.13.0
 joblib
 tifffile
 Pillow
