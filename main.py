@@ -2,7 +2,6 @@
 import streamlit as st
 from DiseaseClassification import app as prediction_app
 from docs import app as docs_app
-from data import app as data_app
 from cropScope import app as cropScope_app
 
 
@@ -36,7 +35,6 @@ st.markdown("""
         <a href='?page=cropScope' target="_self">Multispectral Analysis</a>
         <a href='?page=DiseaseClassification' target="_self">Disease Prediction</a>
         <a href='?page=Docs' target="_self">Docs</a>
-        <a href='?page=Data' target="_self">Data</a>
     </div>
 """, unsafe_allow_html=True)
 
@@ -47,7 +45,6 @@ elif page == "DiseaseClassification":
     prediction_app()
 elif page == "Docs":
     docs_app()
-elif page == "Data":
-    data_app()
+
 else:
     st.error("Page not found.")

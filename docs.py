@@ -17,7 +17,7 @@ def app():
 
         st.markdown("### Step 1: Clone the Repository")
         st.code("""
-git clone https://github.com/muraxxxsrin/PAVAMAN.git
+git clone https://github.com/teamC4-commits/pavaman
 cd PAVAMAN
         """, language="bash")
 
@@ -29,7 +29,7 @@ cd PAVAMAN
         st.markdown("---")
 
         st.markdown("### Step 3: Run the Streamlit App")
-        st.code("streamlit run app.py", language="bash")
+        st.code("streamlit run main.py", language="bash")
 
         st.markdown("---")
 
