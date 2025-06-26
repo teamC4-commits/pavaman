@@ -2,7 +2,7 @@ streamlit
 numpy
 pandas
 matplotlib
-scikit-learn
+scikit-learn==1.2.2
 tensorflow==2.13.0
 joblib
 tifffile
