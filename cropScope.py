@@ -252,7 +252,7 @@ def app():  # ← wrapped the whole script
                 ndvi_flat = ndvi.flatten().reshape(1, -1)
                 predicted_label = model.predict(ndvi_flat)[0]
                 st.subheader("📊 Health Classification Result")
-                st.success(f"🧠 Predicted Vegetation Class: **{predicted_label}**")
+                st.success(f"The vegegtation is : **{predicted_label}**")
             except Exception as e:
                 st.error("🚫 Failed to load or run model.")
                 st.exception(e)
