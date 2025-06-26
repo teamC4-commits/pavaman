@@ -1,7 +1,9 @@
-joblib==1.4.2
-matplotlib==3.10.3
-numpy==2.3.1
-Pillow==11.2.1
-streamlit==1.45.1
-tensorflow==2.19.0
-tifffile==2025.6.11
+streamlit
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow
+joblib
+tifffile
+Pillow
