@@ -132,7 +132,7 @@ CropScope’s Streamlit app provides an intuitive interface for agricultural ima
 ## 🛠 How to Run Locally
 
 bash
-git clone [https://github.com/yourusername/CropScope.git](https://github.com/teamC4-commits/pavaman)
+git clone [https://github.com/teamC4-commits/pavaman]
 cd CropScope
 pip install -r requirements.txt
 streamlit run main.py
